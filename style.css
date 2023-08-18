@@ -1,54 +1,52 @@
 /* Reset de estilos básicos */
-body, h1, h2, p {
+* {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 /* Estilos gerais */
 body {
     font-family: Arial, sans-serif;
-    background-color: #f0f0f0;
-    color: #333;
-}
-
-header, nav, main, footer {
-    max-width: 960px;
-    margin: 0 auto;
-    padding: 20px;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
 }
 
 header {
-    background-color: #428bca;
-    color: #fff;
+    background-color: #333;
+    color: white;
     text-align: center;
+    padding: 1rem;
 }
 
-nav ul {
-    list-style: none;
-    display: flex;
-    justify-content: center;
-    margin-top: 20px;
+h1 {
+    margin: 0;
 }
 
-nav a {
-    text-decoration: none;
-    color: #333;
-    margin: 0 15px;
-}
-
-main {
-    background-color: #fff;
-    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
-    border-radius: 5px;
-    padding: 20px;
-}
-
-section {
-    margin-bottom: 20px;
+.conteudo {
+    padding: 2rem;
 }
 
 footer {
+    background-color: #333;
+    color: white;
     text-align: center;
-    background-color: #ddd;
-    padding: 10px 0;
+    padding: 1rem;
+}
+ 
+ /* Estilizando a imagem */
+.ilustraçao img {
+    max-width: 50%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+/* Estilizando a imagem */
+.caindo img {
+    max-width: 50%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
 }
