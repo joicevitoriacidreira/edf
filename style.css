@@ -50,3 +50,21 @@ footer {
     display: block;
     margin: 0 auto;
 }
+
+
+.card {
+    background-color: #4c87af; /* Cor verde */
+    color: white; /* Cor do texto no card */
+    padding: 20px;
+    border-radius: 10px; /* Borda arredondada */
+    width: 900px; /* Largura do card */
+    margin: 0 auto; /* Centraliza o card na página */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra */
+}
+
+/* Estilizar o texto dentro do card, se necessário */
+.card p {
+    margin: 0;
+    font-size: 18px;
+    font-weight: bold;
+}
